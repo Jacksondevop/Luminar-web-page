@@ -1,3 +1,47 @@
-.nav-link{
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Fredoka:wght@400;500&family=Konkhmer+Sleokchher&family=Mulish:wght@300;400;600;700;800;1000&family=Open+Sans&family=Poppins:wght@700&family=Roboto+Mono:wght@500;700&family=Roboto+Slab:wght@100&family=Roboto:wght@500;700;900&family=Tilt+Prism&family=Ysabeau+Office:wght@900&display=swap');
+
+body {}
+
+
+.nav-link {
     font-weight: bolder;
+}
+
+img {
+    height: 525px;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50px;l
+}
+
+
+
+
+
+.slider-btn-div a {
+    color: white;
+    background-color: #5e068a;
+    padding: 15px 30px;
+    /* padding: 50px; */
+    text-decoration: none;
+    border-radius: 25px;
+
+
+}
+
+.modal-demo-btn {
+    background-color: #5e068a;
+    color: white;
+    margin-left: 160px;
+    height: 50px;
 }
