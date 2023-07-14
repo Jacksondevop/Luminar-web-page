@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Fredoka:wght@400;500&family=Konkhmer+Sleokchher&family=Mulish:wght@300;400;600;700;800;1000&family=Open+Sans&family=Poppins:wght@700&family=Roboto+Mono:wght@500;700&family=Roboto+Slab:wght@100&family=Roboto:wght@500;700;900&family=Tilt+Prism&family=Ysabeau+Office:wght@900&display=swap');
 
-body {}
+
+
+/* carousal-item{
+    animation:slideUp forwards ease 1s ;
+} */
+
+
+@keyframes slideUp{
+    0%{
+        margin-top: 100px;
+    }
+    100%{
+        top: 50px;
+    }
+}
 
 
 .nav-link {
@@ -21,9 +35,19 @@ img {
 
 .carousel-caption {
     position: absolute;
-    top: 50px;l
+    /* top: 50px; */
+    animation: slideUp forwards ease 2s;
 }
 
+.carousel-caption h1{
+    animation: slideUp forwards ease 2.3s;
+}
+.carousel-caption p{
+    animation: slideUP forwards ease 2.6s;
+}
+.carousel-caption button{
+    animation: slideUp forwards ease 2.9s;
+}
 
 
 
@@ -45,3 +69,42 @@ img {
     margin-left: 160px;
     height: 50px;
 }
+
+.card:hover{
+    transform: scale(1.009);
+    box-shadow: 2px 2px 5px 2px silver;
+    transition: .6s;
+}
+
+.data-science:hover{
+
+    transform: scale(1.009);
+    transition: .9s;
+    box-shadow: 0 0 10px 2px silver;
+}
+
+@media (max-width:992px){
+   
+   .carouselcaption h1{
+    display: none;
+   
+   }
+   
+}
+
+@media(max-width:992px){
+    .header-top{
+        height: 90px;
+        
+    }
+    .header-top-p{
+        font-size: 12px;
+        display: block;
+    }
+}
+
+
+
+
+
+/* d-none d-md-block */
