@@ -83,7 +83,7 @@ img {
 .modal-demo-btn {
     background-color: #5e068a;
     color: white;
-    margin-left: 160px;
+    /* margin-left: 160px; */
     height: 50px;
 }
 @media (min-width:992px) and (max-width:1400px){
