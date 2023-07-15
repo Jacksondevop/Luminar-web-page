@@ -49,8 +49,22 @@ img {
     animation: slideUp forwards ease 2.9s;
 }
 
+/* @media(max-width:992px) and (min-wdith:576px){
+    .carousel-caption p{
+        font-size: 20px;
+    }
+}
+@media(max-width:576px){
+    .carousel-caption p{
+        font-size: 10px;
+    }
+} */
 
-
+@media (max-width:320px){
+    .carousel-caption{
+        display: none;
+    }
+}
 
 .slider-btn {
     color: rgb(255, 255, 255);
