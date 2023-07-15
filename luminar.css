@@ -52,15 +52,18 @@ img {
 
 
 
-.slider-btn-div a {
-    color: white;
+.slider-btn {
+    color: rgb(255, 255, 255);
     background-color: #5e068a;
-    padding: 15px 30px;
+    /* padding: 25px 25px; */
     /* padding: 50px; */
     text-decoration: none;
-    border-radius: 25px;
+}
 
-
+.slider-btn a{
+    text-decoration: none;
+    color: white;
+    /* padding: 7px 11px; */
 }
 
 .modal-demo-btn {
@@ -69,7 +72,20 @@ img {
     margin-left: 160px;
     height: 50px;
 }
-
+@media (min-width:992px) and (max-width:1400px){
+    .slider-btn{
+        width: 25%;
+    }
+}
+@media (max-width:992px){
+    .slider-btn a{
+        /* padding: 8px 12px; */
+        
+    }
+    .slider-btn a{
+        font-size: 15px;
+    }
+}
 .card:hover{
     transform: scale(1.009);
     box-shadow: 2px 2px 5px 2px silver;
@@ -86,7 +102,7 @@ img {
 @media (max-width:992px){
    
    .carouselcaption h1{
-    display: none;
+    /* display: none; */
    
    }
    
